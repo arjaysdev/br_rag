@@ -12,7 +12,7 @@ import json
 
 br_client = boto3.client("bedrock-runtime")
 
-host = "iiu0o713lyeekl244zdg.us-east-1.aoss.amazonaws.com"
+host = "<opensearch serverless collection endpoint>"
 region = 'us-east-1'
 service = "aoss"
 credentials = boto3.Session().get_credentials()
