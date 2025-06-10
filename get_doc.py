@@ -18,7 +18,7 @@ awsauth = AWSV4SignerAuthauth = AWSV4SignerAuth(credentials, region, service)
 
 #    )
 # Collection endpoint - replace with your endpoint
-host = 'https://iiu0o713lyeekl244zdg.us-east-1.aoss.amazonaws.com'
+host = 'https://<endpoint_id>.us-east-1.aoss.amazonaws.com'
 
 # Index name
 index_name = 'oscars_index'
