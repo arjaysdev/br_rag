@@ -29,4 +29,4 @@ def get_document_by_id(doc_id):
     response = requests.get(url, auth=awsauth)
     return response.json()
 
-print(get_document_by_id('1%3A0%3AHykZTZcBqYt32BX6fupy'))
+print(get_document_by_id('<replacewithdocumentid>'))
